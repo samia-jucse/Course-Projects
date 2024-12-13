@@ -1,0 +1,20 @@
+[
+    {
+        "title": "aa",
+        "author": "ww",
+        "isbn": 41296,
+        "year": 111,
+        "price": 22,
+        "quantity": 3,
+        "bookAddedAt": "2024-12-13 14:16:07"
+    },
+    {
+        "title": "thithir nil toyale",
+        "author": "humayun ahmed",
+        "isbn": 31994,
+        "year": 2016,
+        "price": 300,
+        "quantity": 4,
+        "bookAddedAt": "2024-12-13 20:49:02"
+    }
+]
