@@ -4,7 +4,6 @@ import view_all_books
 import update_book
 import delete_book
 import lend_book
-import return_book
 
 def restore_lend_data():
     
@@ -34,11 +33,9 @@ def main():
         print("5. Lend Book")
         print("6. Return Book")
 
-        try:
-            menu = int(input("Select a number: "))
-        except ValueError:
-            print("Invalid input! Please enter a valid number.")
-            continue
+       
+        menu = int(input("Select a number: "))
+        
 
         if menu == 0:
             print("Thanks for using the Library Management System!")
@@ -57,9 +54,7 @@ def main():
         elif menu == 5:
             all_books = lend_book.lend_book(all_books)
             save_books(all_books)
-        elif menu == 6:
-           all_books = return_book(all_books)
-           save_books(all_books)
+        
 
         else:
             print("Choose a valid number.")

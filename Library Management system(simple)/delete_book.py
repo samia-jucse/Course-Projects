@@ -7,4 +7,3 @@ def delete_book(all_books):
          save_all_books.save_books(all_books)
          print("Book delete successfully!")
     return all_books
-print("Book not found")
